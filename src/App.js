@@ -26,8 +26,8 @@ function App() {
 
 
   return (
-    <div className="px-[1em] bg-gray-200 ">
-     <div id='glavni' className='bg-[white] shadow-md border-[black] p-4'>
+    <div className=" bg-gray-200 ">
+     <div className='bg-[white] shadow-md border-[black] p-4'>
       <div className="flex flex-col px-6">
       <div className="flex">  
       <div>
@@ -56,50 +56,25 @@ function App() {
       </div>
       <div>
         <div className='flex px-6 py-2'>
-          <div className=' basis-[40%] max-w-[30em]'>
+          
+          <div className=' w-full px-2'>
+            <div className='flex flex-col'>
+            <p className='text-[1.2rem]  border-b-2 max-w-[100%] mb-2 text-[#060632] font-bold'>Summary</p>
+            <p className='text-[0.9rem] mb-2 max-w-[90%] text-[#464343] '>Frontend Developer  oriented on quality with a year of experience. Creating fully responsive
+             web pages/applications with React & Talwind. Have strong knowledge of HTML/CSS JavaScript. Have good understanding of DOM and layout mechanics. Adaptable fast learner, aiming to master the skill by reaching 10 000 hours in practicing.
+             </p>
+             
+            </div>
             <div>
               <p className='text-[1.2rem] mr-auto border-b-2 max-w-[90%] text-[#060632] font-bold'>Technical Skills</p>
             <p className='text-[1rem] text-blue-500 font-bold mb-2'>Frontend:</p>
             <p className='text-[0.9rem] mb-2 max-w-[90%] text-[#464343]'>HTML5, CSS, JavaScript(ES6+), React.JS, TypeScript,
-            Redux, JSON, React Hooks, React Router, Styled Components, Tailwind CSS, Bootstrap, BEM.
+            Redux, JSON, React Hooks, React Router, Styled Components, Tailwind CSS, Bootstrap. 
              </p>
              <p className='text-[1rem] text-blue-500 font-bold'>UI/UX & Other:</p>
-            <p className='mb-4 text-[#464343]'>Git, Github, NPM, Yarn, Windows OS, Photoshop, Figma, VS, VSC.</p>
+            <p className='mb-2 text-[#464343]'>Git, Github, NPM, Yarn, Windows OS, Photoshop, Figma, VS, VSC.</p>
             <p className='text-[1rem] text-blue-500 font-bold'>Principles & Methodologies:</p>
-            <p className='mb-2 text-[#464343]'>DRY Principle, Mobile First & Responsive Design,SEO, UI/UX Fundamentals.</p>
-            </div>
-            
-            <div className='mb-6'>
-                <p className='text-[1.2rem] mr-auto border-b-2 max-w-[90%]  text-[#060632] font-bold'>Licenses & Certifications</p>
-                <p className='text-[0.9rem] text-[#05053b] font-bold'>
-                <a href='https://www.freecodecamp.org/certification/irakliorjo/javascript-algorithms-and-data-structures' target='_blank'>  
-              JavaScript Algorithms and Data Structures<AiOutlineLink className='inline-block ml-1' /></a></p>
-              <p className='text-[0.8rem] text-gray-500 font-semibold'>freeCodeCamp issued Feb 2023</p>
-                <p className='text-[0.9rem] font-bold text-[#05053b]'>
-                  <a href='https://www.freecodecamp.org/certification/irakliorjo/responsive-web-design' target='_blank'>
-                Responsive Web Design<AiOutlineLink className='inline-block ml-1' /></a></p>
-              <p className='text-[0.8rem] text-gray-500 font-semibold'>freeCodeCamp issued Feb 2023</p>
-                <p className='text-[0.9rem] text-[#05053b] font-bold'>
-                  <a href='https://scrimba.com/certificate/ugrGk6tW/gfrontend' target='_blank'> 
-                  The Frontend Developer Career Path<AiOutlineLink className='inline-block ml-1' /></a></p>
-              <p className='text-[0.8rem] text-gray-500 font-semibold'>Scrimba issued Feb 2023</p>
-            </div>
-            <div className='mb-6'>
-                <p className='text-[1.2rem] mr-auto border-b-2 max-w-[90%]  text-[#060632] font-bold'>Languages:</p>
-                <p className='font-bold'>Georgian - Native</p>
-                <p className='font-bold'>English - C1</p>
-                <p className='font-bold'>Russian - C1</p>
-            </div>
-          </div>
-          <div className=' basis-[70%] px-2'>
-            <div className='flex flex-col'>
-            <p className='text-[1.2rem]  border-b-2 max-w-[100%] mb-2 text-[#060632] font-bold'>Summary</p>
-            <p className='text-[0.9rem] mb-2 max-w-[90%] text-[#464343] '>I'm on the way of reaching 10 000 hours in the training. 
-            Self-taught, self-disciplined, I have passed Scrimba "Frontend Developer Career Path", freeCodeCamp courses.
-             Happy to recognize that I gained strong fundamental knowledge of HTML/CSS JavaScript.
-              Each day Im mastering my skills and learning something new. Currently I am looking for full time Frontend Developer role.
-             </p>
-             
+            <p className='mb-2 text-[#464343]'>DRY Principle, Mobile First & Responsive Design,SEO, BEM CSS,  UI/UX Fundamentals.</p>
             </div>
             <div className=''>
             <p className='text-[1.2rem]  border-b-2 max-w-[100%] mb-2 text-[#060632] font-bold'>Personal Projects</p>
@@ -123,6 +98,27 @@ function App() {
             application has multi input forms where you enter your 
             information and your info appears on the right side of the screen real time, creating CV for you.</p>
           </div>
+          <div className='mb-6'>
+                <p className='text-[1.2rem] mr-auto border-b-2 max-w-[90%]  text-[#060632] font-bold'>Licenses & Certifications</p>
+                <p className='text-[0.9rem] text-[#05053b] font-bold'>
+                <a href='https://www.freecodecamp.org/certification/irakliorjo/javascript-algorithms-and-data-structures' target='_blank'>  
+              JavaScript Algorithms and Data Structures<AiOutlineLink className='inline-block ml-1' /></a></p>
+              <p className='text-[0.8rem] text-gray-500 font-semibold'>freeCodeCamp issued Feb 2023</p>
+                <p className='text-[0.9rem] font-bold text-[#05053b]'>
+                  <a href='https://www.freecodecamp.org/certification/irakliorjo/responsive-web-design' target='_blank'>
+                Responsive Web Design<AiOutlineLink className='inline-block ml-1' /></a></p>
+              <p className='text-[0.8rem] text-gray-500 font-semibold'>freeCodeCamp issued Feb 2023</p>
+                <p className='text-[0.9rem] text-[#05053b] font-bold'>
+                  <a href='https://scrimba.com/certificate/ugrGk6tW/gfrontend' target='_blank'> 
+                  The Frontend Developer Career Path<AiOutlineLink className='inline-block ml-1' /></a></p>
+              <p className='text-[0.8rem] text-gray-500 font-semibold'>Scrimba issued Feb 2023</p>
+            </div>
+            <div className='mb-6'>
+                <p className='text-[1.2rem] mr-auto border-b-2 max-w-[90%]  text-[#060632] font-bold'>Languages:</p>
+                <p className='font-bold'>Georgian - Native</p>
+                <p className='font-bold'>English - C1</p>
+                <p className='font-bold'>Russian - C1</p>
+            </div>
           <div className='mb-2 '>
             <p className='text-[1.2rem]  border-b-2 max-w-[100%] mb-2 text-[#060632] font-bold'>Work Experience</p>
             <p className='text-[1.2rem] text-blue-500 font-bold'>Frontend Developer</p>
